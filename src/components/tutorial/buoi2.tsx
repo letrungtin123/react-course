@@ -12,7 +12,6 @@ const App = () => {
     email: "example@gmail.com",
   });
   const [users, setUsers] = useState([]);
-  console.log("🚀 ~ App ~ users:", users);
 
   const handleChangeName = (event) => {
     const value = event.target.value;
@@ -53,10 +52,9 @@ const App = () => {
   };
 
   const abc = [1, 2, 3];
-  console.log("🚀 ~ App ~ abc:", abc);
+
   const number = 4;
   const newArray = [...abc, number];
-  console.log("🚀 ~ App ~ newArray:", newArray);
 
   return (
     <div>
